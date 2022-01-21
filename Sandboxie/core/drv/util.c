@@ -347,9 +347,9 @@ NTSTATUS KphValidateCertificate();
 
 _FX NTSTATUS MyValidateCertificate(void)
 {
-    Driver_Certified = 1;
+    Driver_Certified = TRUE;
 
-    status = STATUS_SUCCESS;
+    NTSTATUS status = STATUS_SUCCESS;
 
     return status;
 }
