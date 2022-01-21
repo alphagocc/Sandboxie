@@ -4,7 +4,7 @@ call %~dp0get_openssl.cmd
 
 call %~dp0copy_build.cmd x64
 
-call %~dp0copy_build.cmd x86
+REM call %~dp0copy_build.cmd x86
 
 
 REM mkdir %rootPath%\SbiePlus64\LogAPI
